@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" />
+	<head>	
+		<meta charset="utf-8" />
+		<meta name="description" content="Contact form" />
+		<meta name="keywords" content="company, contact, html" />
+		<meta name="author" content="Micha van der Meer" />
+
+		<title>
+			Contact form - Assignment 3.3
+		</title>
+	</head>
+
+	<body>
+	
+		<!-- Assignment 3.3 --> 
+		
+		<!-- payoff and title -->
+		<h1>
+			Do not get in touch. 
+		</h1>
+		<h2>
+			Please do not email us, we will span you.
+		<h2>
+		<!-- Contact form -->
+		<form
+			action = "https://witan.nl/inholland/html/testform2223.php"
+			method = "post"
+			>	
+
+			<fieldset>
+				<legend>Tell us your name &star; </legend> 
+				<input
+					type="text"
+					name="name"
+					placeholder="Enter your name&period;&period;"
+					/>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Enter your email &star; </legend> 
+				<input
+					type="email"
+					name="email"
+					placeholder="noreply&commat;internet&period;com"
+					/>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Your website </legend> 
+				<input
+					type="url"
+					name="url"
+					placeholder="http&colon;&sol;&sol;"
+					/>
+			</fieldset>
+			
+			<fieldset class="contactFormFieldset">
+					<legend>Message</legend>
+					<textarea
+							rows="7"
+							cols="40"
+							name="message"
+							placeholder="Your message here&period;&period;"
+					></textarea>
+				</fieldset>	
+			
+			<button type="submit" >Submit</button>	
+		</form>
+	</body>
+</html>

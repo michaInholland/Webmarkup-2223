@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="us">
+	<!-- Form V2.0 --> 
+    <head>   		
+        <meta charset="utf-8" />           
+		<meta name = "keywords" content="Tyrion, Cersei, Jaime" />   
+		<meta name = "description" content="  is roughly based on the storylines of the A Song of 
+											  Ice and Fire book series by George R. R. Martin. 
+											" />   
+		<meta name = "author" content="Arya Stark" />   
+		
+		<title>Form</title>   		
+    </head>   
+	<body>   
+		
+		<form
+			action = "vote.php"
+			method = "get"
+			>
+			<fieldset>
+				<legend>Vote for best console</legend> 	
+				<ul>
+					<li>
+						<label for="console">
+							Best console
+						</label>
+					</li>
+					<li>
+						<select name="console">							    
+							<option value="xbox">Xbox One</option>
+							<option value="psx4">Playstation 4</option>
+							<option value="nisw">Nintendo Switch</option>
+						</select> 
+					</li>
+				</ul>
+			</fieldset>
+			<fieldset>			
+				<legend>Vote for best console company ever</legend> 	
+				<ul>
+					<li>							
+						<input type = "radio" name="company" value="sony" />
+						<label for="company">
+							Sony
+						</label>							
+					</li>
+					<li>							
+						<input type = "radio" name="company" value="microsoft" />
+						<label for="company">
+							Microsoft
+						</label>							
+					</li>
+					<li>							
+						<input type = "radio" name="company" value="nintendo" />
+						<label for="company">
+							Nintendo
+						</label>							
+					</li>
+					<li>							
+						<input type = "radio" name="company" value="sega" checked />
+						<label for="company">
+							Sega
+						</label>							
+					</li>					
+				</ul>
+				
+			</fieldset>
+			<input type = "submit" value="Vote!"/>	
+		</form>
+	
+	</body>
+</html>
