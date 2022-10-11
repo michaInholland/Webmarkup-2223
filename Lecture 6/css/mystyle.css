@@ -1,0 +1,85 @@
+*
+	{	
+	border : 	0px;
+	padding :	0px;    
+	margin :	0px; 		
+	}
+
+body
+	{
+	width : 800px;	
+	background-color : #FFF;	
+	margin  : 50px auto;	
+	}
+/* Sections */
+#sectionI
+	{
+		background-color: #DFF;
+		clear: both;
+	}
+#sectionB
+	{
+		background-color: #FDF;
+		clear: both;
+	}
+#sectionC
+	{
+		background-color: #FFD;
+		clear: both;
+	}
+/* INline */
+#articleI1
+	{
+		float: left;
+		background-color : #888;
+	}
+#articleI2
+	{
+		float: right;
+		background-color : #AAA;
+	}
+#articleI3
+	{
+		float: right;
+		background-color : #CCC;
+	}	
+/* Block */
+#articleB1
+	{
+		float: left;
+		background-color : #888;
+	}
+#articleB2
+	{
+		float: right;
+		background-color : #AAA;
+	}
+#articleB3
+	{
+		float: right;
+		background-color : #CCC;
+	}	
+/* Combined */
+#articleCB1
+	{
+		float: left;
+		background-color : #888;
+		width : 20%;
+		text-align : center;
+	}
+.articleCI2
+	{
+		float: right;
+		background-color : #AAA;
+		width : 20%;
+		text-align : center;
+	}
+#articleCB3
+	{
+		float: right;
+		background-color : #CCC;
+		width : 20%;
+		text-align : center;
+	}	
+	
+	

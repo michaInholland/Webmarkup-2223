@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*
+	{
+	border : 	0;     
+	padding :	0;    
+	margin :	0;   
+	}
+
+body
+	{
+	width : 600px;  	
+	margin: 10px auto;    	
+	font-family: "Roboto";    	
+	background-color : #EEE;     
+	background-image: url("https://picsum.photos/1024/1024");      
+	background-repeat: no-repeat;      
+	background-size: cover;       
+	}
+
+article, footer
+	{
+	background-color : #FFF;	
+	}
+
+footer	
+	{
+	margin : 1em;	
+	}
+
+#span1
+	{
+		color : #F00;
+	}
+#span2
+	{
+		color : #0F0;
+	}
+#span3
+	{
+		color : #00F;
+	}
+#span4
+	{
+		color : #F0F;
+	}
+
+.overruled 
+	{
+		color : #F0F;
+		background-color: #888;
+	}
+.overruled2 
+	{
+		color : #FF0;
+	}
+
+

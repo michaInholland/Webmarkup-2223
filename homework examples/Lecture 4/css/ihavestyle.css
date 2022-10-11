@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?Baloo+Tammudu+2:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600');
+@import url('https://fonts.googleapis.com/css2?family=Peddana');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*
+	{
+	background-color : #FFF;
+	font-family: 'Roboto', sans-serif;	
+	}
+h1
+	{
+	color : #007;
+	font-family: 'Epilogue', sans-serif;	
+	}
+h2
+	{
+	color : #009;	
+	font-family: 'Epilogue', sans-serif;
+	}	
+p
+	{
+	color : #000;
+	font-family: 'Baloo Tammudu 2', cursive;
+	}
+
+table
+	{
+	color : #A00;
+	font-family: 'Noto Sans JP', sans-serif;	
+	}
+th
+	{
+	font-weight: bold; 	
+	}
+td 
+	{
+	font-style: italic;	
+	}
+form
+	{
+	color : #0A0;	
+	font-family: 'Open Sans', sans-serif;
+	}

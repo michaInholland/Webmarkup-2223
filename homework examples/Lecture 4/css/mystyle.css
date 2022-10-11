@@ -1,0 +1,54 @@
+ /* asssesment 4.2 */ 
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap'); 
+
+@font-face
+	{
+    font-family:"ostImport";
+    src:url("../fonts/ostrich-regular.ttf") format("truetype");
+	}
+
+/* asssesment 4.1 */
+body 
+	{
+	background-color : yellow;	
+	}
+h1
+	{
+	color : red;	
+	}
+h2
+	{
+	color : blue;	
+	}	
+p
+	{
+	/* asssesment 4.1 */
+	color :gray;
+	/* asssesment 4.2 */
+	font-family : "Cedarville Cursive"; 	
+	size : 10vw;
+	/* color : #00F; */
+	font-variant: small-caps;
+	}
+
+/* asssesment 4.2 */
+header
+	{
+	font-family: "Courier New", "Lucida Console";
+	size : 32px;
+	color : #F00;
+	}
+	
+footer
+	{
+	font-family: "ostImport";
+	size: 1.6vw;
+	color: hsla(290, 100%, 50%, 0.9);
+	font-stretch: expanded;
+	}
+	
+	
+	
+	
+	
+	

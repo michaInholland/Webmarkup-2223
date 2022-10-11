@@ -1,0 +1,71 @@
+<svg 
+	version="1.1" 
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	height="70" 
+	width="70"
+	viewbox = "0 0 70 70"
+	>
+
+
+	<!-- ear left -->	
+	<polygon 
+		points="10,3 15,40 30,40    " 
+		stroke = "#33F"
+		stroke-width = "1"
+		fill = "#77F"
+		/>	
+	<!-- ear right -->	
+	<polygon 
+		points="60,3 40,40 55,40    " 
+		stroke = "#33F"
+		stroke-width = "1"
+		fill = "#77F"
+		/>
+	
+	<!-- main head -->		
+	<circle
+		cx = "35"
+		cy = "45"
+		r  = "35%"		
+		stroke = "#33F"
+		stroke-width = "1"
+		fill = "#77F"
+		/>
+	<!-- eye left -->	
+	<circle
+		cx = "30"
+		cy = "40"
+		r  = "10%"		
+		stroke = "#EEF"
+		stroke-width = "1"
+		fill = "#AAF"
+		/>	
+	<!-- eye right -->	
+	<circle
+		cx = "48"
+		cy = "40"
+		r  = "10%"		
+		stroke = "#EEF"
+		stroke-width = "1"
+		fill = "#AAF"
+		/>
+	<!-- beak -->	
+	<circle
+		cx = "40"
+		cy = "53"
+		r  = "16%"		
+		stroke = "#33F"
+		stroke-width = "1"
+		fill = "#77F"
+		/>
+	<!-- nose-->	
+	<circle
+		cx = "41"
+		cy = "50"
+		r  = "8%"		
+		stroke = "#666"
+		stroke-width = "1"
+		fill = "#999"
+		/>
+</svg>
